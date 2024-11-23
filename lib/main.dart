@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:menjawi/profile.dart';
 import 'package:menjawi/shop.dart';
 
 void main (){
@@ -11,6 +12,6 @@ class Jawify extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-    home: ShopPage());
+    home: ProfilePage());
   }
 }
